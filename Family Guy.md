@@ -1,4 +1,6 @@
-One drink
+# Family Guy Drinking Game
+
+## One drink
 - Peter gets hurt
 - Anytime you see 'Quahog'
 - Any gay reference
@@ -10,7 +12,7 @@ One drink
 - Peter does something dumb
 - Peter says 'holy crap'
 
-Two drinks
+## Two drinks
 - Stewie talks to stuffed animals
 - Stewie tries to kill Lois
 - A gag is repeated
@@ -22,7 +24,7 @@ Two drinks
 - Peter is watching TV
 - Any reference to a movie
 
-Three drinks
+## Three drinks
 - Quagmire makes a sexual reference
 - Chris gets nervous around a girl
 - Peter gives Chris bad advice
@@ -31,7 +33,7 @@ Three drinks
 - Any nudity
 - A visit to the Drunken Clam
 
-Chug your drink
+## Chug your drink
 - Lois in lingerie
 - Peter has facial hair
 - Appearence of the 'evil monkey'

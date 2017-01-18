@@ -1,0 +1,10 @@
+# Mr. Pickles Drinking Game
+
+- He humps something/someone
+- He "talks" to an animal
+- You hear "Good boy"
+- Steve comes in the episode
+- Mr. Pickles kills someone
+- That one guitar riff
+- Someone doesn't believe Grandpa
+- You see a pickle
