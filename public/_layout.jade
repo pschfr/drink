@@ -1,0 +1,11 @@
+doctype
+html
+	head
+		title #{sitename}
+		link(rel="stylesheet" href="/main.css")
+	body
+		.container
+			.row
+				.col-xs-12
+					!= partial("_partials/_header")
+					!= yield

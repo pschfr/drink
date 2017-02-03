@@ -1,0 +1,6 @@
+.row
+	for article, slug in public.articles._data
+		.col-sm-6.col-xs-12
+			a(href="/articles/#{slug}")
+				h2 #{article.title}
+				h4 Posted #{article.date}
