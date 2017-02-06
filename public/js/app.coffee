@@ -11,5 +11,5 @@ if path.includes('/articles/')
 				counter++
 				event.target.dataset.count = counter
 				total++
-				document.getElementById('total').innerHTML = total
+				document.getElementById('total').innerHTML = 'Total: ' + total
 			)

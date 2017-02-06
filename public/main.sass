@@ -1,9 +1,14 @@
 @import 'sass/_bootstrap.scss'
 @import 'sass/_mixins_variables.sass'
 
+html
+	position: relative
+	min-height: 100%
+
 body
 	font-family: $sans-font-family
-	margin-top: 100px
+	margin-top: 10rem
+	margin-bottom: 6rem
 
 ul
 	padding: 0
@@ -25,6 +30,17 @@ ul
 			font-family: monospace
 		&:active
 			transform: scale(0.95)
+
+footer
+	position: absolute
+	bottom: 0
+	width: 100%
+	height: 6rem
+	background-color: #f8f8f8
+	border-top: 1px solid #e7e7e7
+	p
+		margin: 0
+		padding-top: 2rem
 
 @include media-query($medium-width)
 	ul
