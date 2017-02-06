@@ -1,13 +1,11 @@
 nav.navbar.navbar-default.navbar-fixed-top
-	.navbar-header
-		.container
-			.row
-				.col-xs-12
-					.navbar-left
-						h1 #{title}
-						h4 Edit on 
-							a(href="#{githubURL}") GitHub.
-					if title != 'Drinking Games'
-						.navbar-right.text-center
-							h1#total 0
-							h4 Total
+	.container
+		.row
+			.col-xs-10
+				h1 #{title}
+				h4 Edit on 
+					a(href="#{githubURL}") GitHub.
+			if title != 'Drinking Games'
+				.col-xs-2.text-center
+					h1#total 0
+					h4 Total

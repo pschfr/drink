@@ -15,6 +15,7 @@ ul
 		text-align: center
 		list-style: none
 		user-select: none
+		transition: all 0.15s ease
 		&:not([data-count='']):after
 			display: inline-block
 			content: attr(data-count)
@@ -24,4 +25,11 @@ ul
 			font-family: monospace
 		&:active
 			transform: scale(0.95)
-			transition: all 0.15s ease
+
+@include media-query($medium-width)
+	ul
+		column-count: 2
+
+@include media-query($small-width)
+	ul
+		column-count: 1
