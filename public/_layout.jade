@@ -1,7 +1,7 @@
 doctype
 html
 	head
-		title #{sitename}
+		title #{title}
 		link(rel="stylesheet" href="/main.css")
 	body
 		.container
@@ -9,3 +9,4 @@ html
 				.col-xs-12
 					!= partial("_partials/_header")
 					!= yield
+		script(src="/js/app.js")

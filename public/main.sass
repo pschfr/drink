@@ -1,5 +1,26 @@
-@import '_partials/sass/_bootstrap.scss'
-@import '_partials/sass/_mixins_variables.sass'
+@import 'sass/_bootstrap.scss'
+@import 'sass/_mixins_variables.sass'
 
 body
 	font-family: $sans-font-family
+	margin-top: 100px
+
+ul
+	padding: 0
+	column-count: 3
+	li
+		position: relative
+		padding: 10px 0
+		text-align: center
+		list-style: none
+		user-select: none
+		&:not([data-count='']):after
+			display: inline-block
+			content: attr(data-count)
+			background: #ddd
+			padding: 0 3px
+			margin-left: 5px
+			font-family: monospace
+		&:active
+			transform: scale(0.95)
+			transition: all 0.15s ease

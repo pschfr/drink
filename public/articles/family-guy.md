@@ -1,5 +1,3 @@
-# Family Guy Drinking Game
-
 ## One drink
 - Peter gets hurt
 - Anytime you see 'Quahog'

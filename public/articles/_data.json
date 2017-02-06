@@ -1,10 +1,12 @@
 {
 	"mr-pickles": {
 		"title": "Mr. Pickles",
-		"date": "Feb 2, 2017"
+		"date": "Feb 2, 2017",
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/mr-pickles.md"
 	},
 	"family-guy": {
 		"title": "Family Guy",
-		"date": "Jan 20, 2017"
+		"date": "Jan 20, 2017",
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/family-guy.md"
 	}
 }

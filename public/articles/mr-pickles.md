@@ -1,5 +1,3 @@
-# Mr. Pickles Drinking Game
-
 - He humps something/someone
 - He "talks" to an animal
 - You hear "Good boy"
