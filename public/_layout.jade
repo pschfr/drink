@@ -10,4 +10,5 @@ html
 				.col-xs-12
 					!= yield
 		!= partial("_partials/_footer")
-		script(src="/js/app.js")
+		if title != 'Drinking Games'
+			script(src="/js/app.js")
