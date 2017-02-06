@@ -2,6 +2,7 @@ path = window.location.pathname
 
 if path.includes('/articles/')
 	li = document.getElementsByTagName('li')
+	total = 0;
 	for drink in li
 		drink.dataset.count = ''
 		do (drink) ->
@@ -9,4 +10,6 @@ if path.includes('/articles/')
 			drink.addEventListener('click', ->
 				counter++
 				event.target.dataset.count = counter
+				total++
+				document.getElementById('total').innerHTML = total;
 			)
