@@ -3,9 +3,9 @@
 		.col-sm-6.col-xs-12
 			if environment == "production"
 				a(href="/drink/articles/#{slug}.html")
-					h2 #{article.title}
+					h1 #{article.title}
 					h4 Posted #{article.date}
 			else
 				a(href="/articles/#{slug}")
-					h2 #{article.title}
+					h1 #{article.title}
 					h4 Posted #{article.date}
