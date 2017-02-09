@@ -1,7 +1,10 @@
 footer
 	.container
-		.row
-			.col-xs-12.text-center
+		.row.text-muted
+			.col-xs-4
 				p Edit on 
 					a(href="#{githubURL}") GitHub.
-					|  Please drink responsibly.
+			.col-xs-4
+				p.text-center Please drink responsibly.
+			.col-xs-4
+				p.text-right &copy; #{new Date().getFullYear()}

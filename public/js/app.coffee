@@ -4,7 +4,7 @@ for drink in li
 	drink.dataset.count = ''
 	do (drink) ->
 		counter = 0
-		drink.addEventListener('click', ->
+		drink.addEventListener('click', (event) ->
 			counter++
 			event.target.dataset.count = counter
 			total++
