@@ -1,0 +1,13 @@
+- Someone goes through a portal
+- Wubba Lubba Dub Dub!!!
+- Jerry says/does anything dumb
+- Reference to Morty being "slow"
+- Rick whips out zany invention
+- Beth drinks wine
+- Rick and Morty gets real deep
+- Break 4th wall
+- Talk about Beth being a horse surgeon
+- Name of episode is mentioned
+- Someone is spit on
+- Morty or Summer gets it in
+- Morty blows up

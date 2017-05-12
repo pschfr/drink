@@ -1,4 +1,9 @@
-{	
+{
+	"rick-and-morty": {
+		"title": "Rick and Morty",
+		"date": "May 12, 2017",
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/rick-and-morty.md"
+	},
 	"trailer-park-boys": {
 		"title": "Trailer Park Boys",
 		"date": "Feb 18, 2017",
