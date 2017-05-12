@@ -1,11 +1,6 @@
 .row
 	for article, slug in public.articles._data
 		.col-sm-6.col-xs-12
-			if environment == "production"
-				a(href="/drink/articles/#{slug}.html")
-					h1 #{article.title}
-					h4 Posted #{article.date}
-			else
-				a(href="/articles/#{slug}")
-					h1 #{article.title}
-					h4 Posted #{article.date}
+			a(href=(environment == "production" ? "/drink/articles/#{slug}.html" : "/articles/#{slug}.html"))
+				h1 #{article.title}
+				h4 Posted #{article.date}
