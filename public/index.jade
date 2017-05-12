@@ -3,4 +3,4 @@
 		.col-sm-6.col-xs-12
 			a(href=(environment == "production" ? "/drink/articles/#{slug}.html" : "/articles/#{slug}.html"))
 				h1 #{article.title}
-				h4 Posted #{article.date}
+				h4.text-muted #{article.date}
