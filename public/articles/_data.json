@@ -1,4 +1,9 @@
 {
+	"deadpool": {
+		"title": "Deadpool",
+		"date": "May 18, 2017",
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/deadpool.md"
+	},
 	"rick-and-morty": {
 		"title": "Rick and Morty",
 		"date": "May 12, 2017",
