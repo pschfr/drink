@@ -8,5 +8,5 @@ for drink in li
 			counter++
 			event.target.dataset.count = counter
 			total++
-			document.getElementById('total').innerHTML = 'Total: ' + total
+			document.getElementById('total').innerHTML = total
 		)

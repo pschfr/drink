@@ -11,3 +11,9 @@
 - Someone is spit on
 - Morty or Summer gets it in
 - Morty blows up
+- Rick burps
+- Morty stutters
+- First time an alien is on screen
+- Reference to Jerry being an idiot
+- Morty gets weak about a girl
+- Council of Ricks appears / referenced

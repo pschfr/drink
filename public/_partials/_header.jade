@@ -2,8 +2,11 @@ header
 	nav.navbar.navbar-default.navbar-fixed-top
 		.container
 			.row
-				.col-xs-8
-					h1 #{title}
 				if title != 'Drinking Games'
-					.col-xs-4.text-center
-						h2#total Total: 0
+					.col-xs-8
+						h1= title
+					.col-xs-4.text-right
+						h1#total 0
+				else
+					.col-xs-12
+						h1= title

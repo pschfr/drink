@@ -1,36 +1,39 @@
-@import '_bootstrap.scss'
-@import '_mixins_variables.sass'
+// Bootstrap overrides, see https://getbootstrap.com/docs/3.3/customize/#less-variables
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+$body-bg: #0d0d0d
+$text-color: #fff
+$text-muted: lighten(black, 46.7%)
 
+$link-color: $text-color
+$navbar-default-bg: $body-bg
+$navbar-default-border: $text-muted
+
+// Imports Bootstrap and my mixins
+@import '_bootstrap.scss'
+@import '_mixins.sass'
+
+// Sticky footer magic
 html
 	position: relative
 	min-height: 100%
 
 body
-	font-family: $sans-font-family
-	margin-top: 10rem
-	margin-bottom: 6rem
+	margin: 6rem 0
 
-body, .navbar-default, footer
-	background-color: $dark-color
-	color: $light-color
+// Tweaks header margins
+.navbar-default h1
+	margin: 1rem 0
 
-.navbar-default
-	border-bottom: 1px solid $muted-color
-
-a
-	color: inherit
-	transition: all 0.25s
-	&:hover, &:active, &:focus
-		color: darken($light-color, 15%)
-
+// Used for articles with multiple drink types
 h2
 	text-align: center
 
+// Most of the magic happens here
 ul
 	padding: 0
 	column-count: 3
 	width: 100%
-	margin-bottom: 4rem
+	margin: 3rem 0
 	li
 		position: relative
 		padding: 10px 0
@@ -38,6 +41,7 @@ ul
 		list-style: none
 		user-select: none
 		transition: all 0.15s ease
+		// The actual counters displayed
 		&:not([data-count='']):after
 			display: inline-block
 			content: attr(data-count)
@@ -45,23 +49,25 @@ ul
 			padding: 0 3px
 			margin-left: 5px
 			font-family: monospace
+		// The 'click' animation
 		&:active
 			transform: scale(0.95)
 
+// The footer itself
 footer
 	position: absolute
 	bottom: 0
 	width: 100%
-	height: 6rem
-	border-top: 1px solid $muted-color
+	border-top: 1px solid $navbar-default-border
 	p
 		margin: 0
-		padding-top: 2rem
+		padding: 1.5rem 0
 
-@include media-query($medium-width)
+// Responsiveness magic
+@include media-query($screen-sm)
 	ul
 		column-count: 2
 
-@include media-query($small-width)
+@include media-query($screen-xs)
 	ul
 		column-count: 1
