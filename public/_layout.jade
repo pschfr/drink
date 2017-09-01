@@ -16,3 +16,5 @@ html
 		!= partial("_partials/_footer")
 		if title != "Drinking Games"
 			script(src=(environment == "production" ? "/drink/js/app.js" : "/js/app.js"))
+		if environment == "production"
+			!= partial("_partials/_analytics")

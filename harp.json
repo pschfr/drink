@@ -1,6 +1,7 @@
 {
 	"globals": {
 		"title": "Drinking Games",
+		"analytics": "UA-76037357-6",
 		"githubURL": "https://github.com/pschfr/drink"
 	}
 }
