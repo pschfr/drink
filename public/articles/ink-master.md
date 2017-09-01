@@ -1,0 +1,8 @@
+- Somebody goes home
+- A word is bleeped out
+- Peck has a toothpick
+- "No more ink"
+- A really fucked up insult
+- A reference to an "alliance"
+- When a judge has to break a tie
+- "Throw you under the bus"

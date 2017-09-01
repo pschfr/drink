@@ -1,4 +1,14 @@
 {
+	"ink-master": {
+		"title": "Ink Master",
+		"date": "August 30, 2017",
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/ink-master.md"
+	},
+	"american-dad": {
+		"title": "American Dad",
+		"date": "August 28, 2017",
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/american-dad.md"
+	},
 	"deadpool": {
 		"title": "Deadpool",
 		"date": "May 18, 2017",
@@ -11,17 +21,17 @@
 	},
 	"trailer-park-boys": {
 		"title": "Trailer Park Boys",
-		"date": "Feb 18, 2017",
+		"date": "February 18, 2017",
 		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/trailer-park-boys.md"
 	},
 	"mr-pickles": {
 		"title": "Mr. Pickles",
-		"date": "Feb 2, 2017",
+		"date": "February 2, 2017",
 		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/mr-pickles.md"
 	},
 	"family-guy": {
 		"title": "Family Guy",
-		"date": "Jan 20, 2017",
+		"date": "January 20, 2017",
 		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/family-guy.md"
 	}
 }

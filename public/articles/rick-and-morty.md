@@ -17,3 +17,7 @@
 - Reference to Jerry being an idiot
 - Morty gets weak about a girl
 - Council of Ricks appears / referenced
+- Reference to Szechuan Sauce
+- Beth and Jerry's divorce is mentioned
+- Summer tries to be "cool"
+- Summer tries to take Morty's place

@@ -5,13 +5,13 @@ html
 		meta(http-equiv="X-UA-Compatible" content="IE=edge")
 		meta(name="viewport" content="width=device-width, initial-scale=1")
 		meta(name="theme-color" content="#0d0d0d")
-		title #{title}
+		title= title
 		link(rel="stylesheet" href=(environment == "production" ? "/drink/css/main.css" : "/css/main.css"))
 	body
 		!= partial("_partials/_header")
 		.container
 			.row
-				.col-xs-12
+				div(class=(title != "Drinking Games" ? "col-xs-12 text-center" : "col-xs-12"))
 					!= yield
 		!= partial("_partials/_footer")
 		if title != "Drinking Games"

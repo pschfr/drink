@@ -1,0 +1,19 @@
+- Steve sings
+- Klaus says something racist
+- Steve cries
+- Roger changes costume (twice if he also changes gender)
+- Stan references the CIA
+- Francine acts like a stereotypical house wife
+- Roger references time before living with the Smiths
+- Toshi speaks (twice if the other characters respond)
+- Francine does or says something crazy
+- Stan does or says something selfish
+- Stan pulls out a gun (twice if its bigger than a handgun) 
+- Steve acts with confidence
+- The principal is on screen
+- Roger drinks (twice if he is already drunk)
+- An American flag can be seen
+- The show breaks the 4th wall 
+- Haley disagrees with Stan
+- Someone who works at the CIA other than Stan is seen
+- Anytime Patrick Stewart is in the episode

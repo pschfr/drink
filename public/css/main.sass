@@ -3,7 +3,7 @@ $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
 $body-bg: #0d0d0d
 $text-color: #fff
 $text-muted: lighten(black, 46.7%)
-
+$headings-line-height: 1
 $link-color: $text-color
 $navbar-default-bg: $body-bg
 $navbar-default-border: $text-muted
@@ -24,31 +24,32 @@ body
 .navbar-default h1
 	margin: 1rem 0
 
-// Used for articles with multiple drink types
-h2
-	text-align: center
+// Fancier underlines and focus rings
+a, [tabindex]
+	text-decoration-skip: ink
+	&:focus
+		outline-color: inherit
+		text-decoration: none
 
 // Most of the magic happens here
 ul
 	padding: 0
 	column-count: 3
-	width: 100%
 	margin: 3rem 0
+	font-size: 18px
+	list-style: none
 	li
 		position: relative
 		padding: 10px 0
-		text-align: center
-		list-style: none
 		user-select: none
 		transition: all 0.15s ease
 		// The actual counters displayed
 		&:not([data-count='']):after
 			display: inline-block
 			content: attr(data-count)
-			border: 1px solid
-			padding: 0 3px
 			margin-left: 5px
 			font-family: monospace
+			opacity: 0.5
 		// The 'click' animation
 		&:active
 			transform: scale(0.95)
