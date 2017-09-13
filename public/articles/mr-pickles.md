@@ -6,3 +6,6 @@
 - That one guitar riff
 - Someone doesn't believe Grandpa
 - You see a pickle
+- "Mr. Pickles!!!!!"
+- A pentagram
+- The show is racist

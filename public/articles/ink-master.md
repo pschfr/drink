@@ -6,3 +6,4 @@
 - A reference to an "alliance"
 - When a judge has to break a tie
 - "Throw you under the bus"
+- When they actually compliment a tattoo
