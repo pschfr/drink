@@ -1,8 +1,14 @@
 footer
-	.container
+	.container-fluid
 		.row.text-muted
-			.col-xs-6
-				p Edit on 
-					a(href="#{githubURL}" class="text-muted") GitHub.
-			.col-xs-6.text-right
-				p Drink responsibly.
+			if title == 'Drinking Games'
+				.col-xs-12
+					p Edit on 
+						a(href="#{githubURL}") GitHub.
+			else
+				.col-xs-6
+					p Edit on 
+						a(href="#{githubURL}") GitHub.
+				.col-xs-6.text-right
+					p
+						a(href=(environment == "production" ? "/drink/" : "/")) Back to all.

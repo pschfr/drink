@@ -1,12 +1,10 @@
 // Bootstrap overrides, see https://getbootstrap.com/docs/3.3/customize/#less-variables
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
-$body-bg: #0d0d0d
+$body-bg: #111
 $text-color: #fff
-$text-muted: lighten(black, 46.7%)
 $headings-line-height: 1
 $link-color: $text-color
 $navbar-default-bg: $body-bg
-$navbar-default-border: $text-muted
 
 // Imports Bootstrap and my mixins
 @import '_bootstrap.scss'
@@ -28,7 +26,8 @@ body
 a, [tabindex]
 	text-decoration-skip: ink
 	&:focus
-		outline-color: inherit
+		outline: 1px solid
+		outline-offset: 2px
 		text-decoration: none
 
 // Most of the magic happens here
@@ -40,9 +39,10 @@ ul
 	list-style: none
 	li
 		position: relative
-		padding: 10px 0
+		padding: 10px
 		user-select: none
-		transition: all 0.15s ease
+		cursor: pointer
+		transition: transform 0.15s ease
 		// The actual counters displayed
 		&:not([data-count='']):after
 			display: inline-block
@@ -53,16 +53,17 @@ ul
 		// The 'click' animation
 		&:active
 			transform: scale(0.95)
+		// Act like a link on hover
+		&:hover, &:focus
+			color: $link-hover-color
 
 // The footer itself
 footer
 	position: absolute
 	bottom: 0
 	width: 100%
-	border-top: 1px solid $navbar-default-border
-	p
-		margin: 0
-		padding: 1.5rem 0
+	a
+		color: inherit
 
 // Responsiveness magic
 @include media-query($screen-sm)
@@ -70,5 +71,9 @@ footer
 		column-count: 2
 
 @include media-query($screen-xs)
+	body
+		margin: 4rem 0
+	h1
+		font-size: 28px
 	ul
 		column-count: 1

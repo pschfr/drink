@@ -4,12 +4,12 @@ html
 		meta(charset="utf-8")
 		meta(http-equiv="X-UA-Compatible" content="IE=edge")
 		meta(name="viewport" content="width=device-width, initial-scale=1")
-		meta(name="theme-color" content="#0d0d0d")
+		meta(name="theme-color" content="#111")
 		title= title
 		link(rel="stylesheet" href=(environment == "production" ? "/drink/css/main.css" : "/css/main.css"))
 	body
 		!= partial("_partials/_header")
-		.container
+		.container-fluid
 			.row
 				div(class=(title != "Drinking Games" ? "col-xs-12 text-center" : "col-xs-12"))
 					!= yield
