@@ -1,7 +1,7 @@
 .row
-	for article, slug in public.articles._data
-		.col-sm-6.col-xs-12
+	for game, slug in public.games._data
+		.col-md-4.col-sm-6.col-xs-12
 			h1
-				a(href=(environment == "production" ? "/drink/articles/#{slug}.html" : "/articles/#{slug}.html"))= article.title
+				a(href=(environment == "production" ? "/drink/games/#{slug}.html" : "/games/#{slug}.html"))= game.title
 				br
-				small= article.date
+				em(class="small")= game.date
