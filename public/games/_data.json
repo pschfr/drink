@@ -1,42 +1,47 @@
 {
+	"zatch-bell": {
+		"title": "Zatch Bell",
+		"date": "September 16, 2017",
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/zatch-bell.md"
+	},
 	"high-school-musical": {
 		"title": "High School Musical",
 		"date": "September 3, 2017",
-		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/high-school-musical.md"
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/high-school-musical.md"
 	},
 	"ink-master": {
 		"title": "Ink Master",
 		"date": "August 30, 2017",
-		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/ink-master.md"
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/ink-master.md"
 	},
 	"american-dad": {
 		"title": "American Dad",
 		"date": "August 28, 2017",
-		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/american-dad.md"
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/american-dad.md"
 	},
 	"deadpool": {
 		"title": "Deadpool",
 		"date": "May 18, 2017",
-		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/deadpool.md"
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/deadpool.md"
 	},
 	"rick-and-morty": {
 		"title": "Rick and Morty",
 		"date": "May 12, 2017",
-		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/rick-and-morty.md"
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/rick-and-morty.md"
 	},
 	"trailer-park-boys": {
 		"title": "Trailer Park Boys",
 		"date": "February 18, 2017",
-		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/trailer-park-boys.md"
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/trailer-park-boys.md"
 	},
 	"mr-pickles": {
 		"title": "Mr. Pickles",
 		"date": "February 2, 2017",
-		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/mr-pickles.md"
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/mr-pickles.md"
 	},
 	"family-guy": {
 		"title": "Family Guy",
 		"date": "January 20, 2017",
-		"githubURL": "https://github.com/pschfr/drink/blob/master/public/articles/family-guy.md"
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/family-guy.md"
 	}
 }

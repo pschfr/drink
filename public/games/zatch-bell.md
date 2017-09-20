@@ -1,0 +1,9 @@
+- Yellowtail
+- Zatch gets teased by Naomi
+- A new Mamodo
+- Someone makes fun of Ponygon
+- Boing boing!
+- Kiyo gets angry
+- Volcan 300
+- "What kind of king will you be?"
+- "The nth Spell"
