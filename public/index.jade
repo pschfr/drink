@@ -4,4 +4,4 @@
 			h1
 				a(href=(environment == "production" ? "/drink/games/#{slug}.html" : "/games/#{slug}.html"))= game.title
 				br
-				em(class="small")= game.date
+				small= game.date

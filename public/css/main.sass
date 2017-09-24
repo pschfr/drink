@@ -1,10 +1,14 @@
 // Bootstrap overrides, see https://getbootstrap.com/docs/3.3/customize/#less-variables
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
-$body-bg: #111
-$text-color: #fff
+$font-family-sans-serif: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+$font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace
+$body-bg: black
+$text-color: white
+$muted-color: #777
 $headings-line-height: 1
+$headings-font-weight: 600
 $link-color: $text-color
-$navbar-default-bg: $body-bg
+$navbar-default-bg: transparentize($body-bg, .3)
+$navbar-default-border: $muted-color
 
 // Imports Bootstrap and my mixins
 @import '_bootstrap.scss'
@@ -21,21 +25,24 @@ body
 // Tweaks header margins
 .navbar-default h1
 	margin: 1rem 0
+	&#total
+		font-family: $font-family-monospace
 
-// Fancier underlines and focus rings
+// Replaces focus rings with fancy underlines
 a, [tabindex]
 	text-decoration-skip: ink
 	&:focus
-		outline: 1px solid
-		outline-offset: 2px
-		text-decoration: none
+		outline: none
+	&:hover, &:focus
+		color: $link-hover-color
+		text-decoration: underline
 
 // Most of the magic happens here
 ul
 	padding: 0
 	column-count: 3
 	margin: 3rem 0
-	font-size: 18px
+	font-size: 24px
 	list-style: none
 	li
 		position: relative
@@ -48,14 +55,11 @@ ul
 			display: inline-block
 			content: attr(data-count)
 			margin-left: 5px
-			font-family: monospace
+			font-family: $font-family-monospace
 			opacity: 0.5
 		// The 'click' animation
 		&:active
 			transform: scale(0.95)
-		// Act like a link on hover
-		&:hover, &:focus
-			color: $link-hover-color
 
 // The footer itself
 footer
@@ -71,8 +75,6 @@ footer
 		column-count: 2
 
 @include media-query($screen-xs)
-	body
-		margin: 4rem 0
 	h1
 		font-size: 28px
 	ul
