@@ -1,0 +1,5 @@
+- Beverly overreacts in a motherly way
+- Barry refers to self as Big Tasty
+- Murray is in frame without pants
+- Adam nerds out
+- Barry raps
