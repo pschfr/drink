@@ -45,6 +45,7 @@ ul
 	font-size: 24px
 	list-style: none
 	li
+		-webkit-backface-visibility: hidden
 		position: relative
 		padding: 10px
 		user-select: none
@@ -73,6 +74,7 @@ footer
 @include media-query($screen-sm)
 	ul
 		column-count: 2
+		font-size: 20px
 
 @include media-query($screen-xs)
 	h1
