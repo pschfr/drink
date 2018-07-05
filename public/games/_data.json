@@ -1,4 +1,9 @@
 {
+	"bobs-burgers": {
+		"title": "Bob's Burgers",
+		"date": "July 1, 2018",
+		"githubURL":"https://github.com/pschfr/drink/blob/master/public/games/bobs-burgers.md"
+	},
 	"dark-souls": {
 		"title": "Dark Souls",
 		"date": "May 24, 2018",
