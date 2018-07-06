@@ -1,18 +1,25 @@
-# Gather all drinks! (list items)
-li = document.getElementsByTagName('li')
+# Regex to get the game name from URL
+game = window.location.pathname.replace(/\/drink/ig, '').replace(/\/games\//ig, '').replace(/\.html/ig, '')
 # Initiate total counter
-total = 0
+if (localStorage.getItem(game + '-game-total') != null)
+	total = localStorage.getItem(game + '-game-total')
+	document.getElementById('total').innerHTML = total
+else
+	total = 0
 
 # Loop over drinks!
-for drink, index in li
-	# Set all counters to 0
-	drink.dataset.count = 0
+for drink, index in document.getElementsByTagName('li')
+	# Checks for count in localStorage, or sets it to 0
+	if (localStorage.getItem(game + '-question-' + index) != null)
+		drink.dataset.count = localStorage.getItem(game + '-question-' + index)
+	else
+		drink.dataset.count = 0
 	# Adds proper tabIndex to each li
 	drink.tabIndex = index++
 	# For each drink item, do this...
 	do (drink) ->
 		# New counter
-		counter = 0
+		counter = drink.dataset.count
 		# On click or keyup...
 		for eventType in ['click', 'keyup']
 			drink.addEventListener(eventType, (event) ->
@@ -23,4 +30,10 @@ for drink, index in li
 					event.target.dataset.count = counter
 					total++
 					document.getElementById('total').innerHTML = total
+
+					# Stores new total in localStorage
+					localStorage.setItem(game + '-game-total', total)
+
+					# Stores new question count as well
+					localStorage.setItem(game + '-question-' + event.target.tabIndex, counter)
 			)
