@@ -62,6 +62,15 @@ ul
 		&:active
 			transform: scale(0.95)
 
+// Counters on index page
+a:not([data-count='']):after
+	display: inline-block
+	content: attr(data-count)
+	margin-left: 5px
+	font-family: $font-family-monospace
+	opacity: 0.5
+	font-size: 28px
+
 // The footer itself
 footer
 	position: absolute

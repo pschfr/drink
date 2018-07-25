@@ -18,7 +18,6 @@ html
 				div(class=(title != "Drinking Games" ? "col-xs-12 text-center clearfix" : "col-xs-12"))
 					!= yield
 		!= partial("_partials/_footer")
-		if title != "Drinking Games"
-			script(src=(environment == "production" ? "/drink/js/app.js" : "/js/app.js"))
+		script(src=(environment == "production" ? "/drink/js/app.js" : "/js/app.js"))
 		if environment == "production"
 			!= partial("_partials/_analytics")

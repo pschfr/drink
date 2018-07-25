@@ -2,6 +2,6 @@
 	for game, slug in public.games._data
 		.col-md-4.col-sm-6.col-xs-12
 			h1
-				a(href=(environment == "production" ? "/drink/games/#{slug}.html" : "/games/#{slug}.html"))= game.title
+				a(id="#{slug}" href=(environment == "production" ? "/drink/games/#{slug}.html" : "/games/#{slug}.html"))= game.title
 				br
 				small= game.date
