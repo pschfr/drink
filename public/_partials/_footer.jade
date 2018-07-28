@@ -1,16 +1,12 @@
 footer
 	.container-fluid
 		.row.text-muted
-			if title == 'Drinking Games'
-				.col-xs-6
-					p Please drink responsibly.
-				.col-xs-6.text-right
-					p Contribute on 
-						a(href="#{githubURL}") GitHub.
-			else
-				.col-xs-6
-					p
+			.col-xs-6
+				p
+					if title == 'Drinking Games'
+						| Please drink responsibly.
+					else
 						a(href=(environment == "production" ? "/drink/" : "/")) Back to all games.
-				.col-xs-6.text-right
-					p Contribute on 
-						a(href="#{githubURL}") GitHub.
+			.col-xs-6.text-right
+				p 
+					a(href="#{githubURL}" target="_blank") Contribute on GitHub.
