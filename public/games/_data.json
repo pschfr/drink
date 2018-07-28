@@ -1,13 +1,15 @@
 {
-	"brooklyn-99": {
-		"title": "Brooklyn 99",
+	"brooklyn-nine-nine": {
+		"title": "Brooklyn Nine-Nine",
 		"date": "July 25, 2018",
-		"githubURL":"https://github.com/pschfr/drink/blob/master/public/games/brooklyn-99.md"
+		"githubURL":"https://github.com/pschfr/drink/blob/master/public/games/brooklyn-nine-nine.md",
+		"streamURL": "https://www.hulu.com/brooklyn-nine-nine/"
 	},
 	"bobs-burgers": {
 		"title": "Bob's Burgers",
 		"date": "July 1, 2018",
-		"githubURL":"https://github.com/pschfr/drink/blob/master/public/games/bobs-burgers.md"
+		"githubURL":"https://github.com/pschfr/drink/blob/master/public/games/bobs-burgers.md",
+		"streamURL": "https://www.hulu.com/bobs-burgers/"
 	},
 	"dark-souls": {
 		"title": "Dark Souls",
@@ -22,7 +24,8 @@
 	"zatch-bell": {
 		"title": "Zatch Bell",
 		"date": "Sept. 16, 2017",
-		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/zatch-bell.md"
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/zatch-bell.md",
+		"streamURL": "https://www.hulu.com/zatch-bell/"
 	},
 	"high-school-musical": {
 		"title": "High School Musical",
@@ -32,12 +35,14 @@
 	"ink-master": {
 		"title": "Ink Master",
 		"date": "Aug. 30, 2017",
-		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/ink-master.md"
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/ink-master.md",
+		"streamURL": "http://www.paramountnetwork.com/shows/ink-master"
 	},
 	"american-dad": {
 		"title": "American Dad",
 		"date": "Aug. 28, 2017",
-		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/american-dad.md"
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/american-dad.md",
+		"streamURL": "https://www.hulu.com/american-dad/"
 	},
 	"deadpool": {
 		"title": "Deadpool",
@@ -47,21 +52,25 @@
 	"rick-and-morty": {
 		"title": "Rick and Morty",
 		"date": "May 12, 2017",
-		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/rick-and-morty.md"
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/rick-and-morty.md",
+		"streamURL": "https://www.hulu.com/rick-and-morty/"
 	},
 	"trailer-park-boys": {
 		"title": "Trailer Park Boys",
 		"date": "Feb. 18, 2017",
-		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/trailer-park-boys.md"
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/trailer-park-boys.md",
+		"streamURL": "https://www.netflix.com/title/70153385"
 	},
 	"mr-pickles": {
 		"title": "Mr. Pickles",
 		"date": "Feb. 2, 2017",
-		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/mr-pickles.md"
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/mr-pickles.md",
+		"streamURL": "https://www.hulu.com/mr-pickles/"
 	},
 	"family-guy": {
 		"title": "Family Guy",
 		"date": "Jan. 20, 2017",
-		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/family-guy.md"
+		"githubURL": "https://github.com/pschfr/drink/blob/master/public/games/family-guy.md",
+		"streamURL": "https://www.hulu.com/family-guy"
 	}
 }

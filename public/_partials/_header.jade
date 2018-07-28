@@ -4,7 +4,11 @@ header
 			.row
 				if title != 'Drinking Games'
 					.col-xs-10
-						h1= title
+						if streamURL
+							h1
+								a(href="#{streamURL}" target="_blank")= title
+						else
+							h1(title="No streaming link available.")= title
 					.col-xs-2.text-right
 						h1#total 0
 				else
