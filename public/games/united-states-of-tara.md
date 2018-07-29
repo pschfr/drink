@@ -1,0 +1,6 @@
+- Tara transitions
+- Marshall is cooking
+- A new alter appears
+- Tara wakes up somewhere strange
+- Barnabeez is mentioned
+- Tara is co-conscious
