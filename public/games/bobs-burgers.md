@@ -6,3 +6,5 @@
 - Butts
 - A holiday episode
 - Another story about how they met
+- A fart joke
+- Gene is wholesome
