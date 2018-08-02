@@ -1,4 +1,10 @@
 {
+	"letterkenny": {
+		"title": "Letterkenny",
+		"date": "Aug. 1, 2018",
+		"githubURL":"https://github.com/pschfr/drink/blob/master/public/games/letterkenny.md",
+		"streamURL": "https://www.hulu.com/letterkenny/"
+	},
 	"united-states-of-tara": {
 		"title": "United States of Tara",
 		"date": "July 28, 2018",
