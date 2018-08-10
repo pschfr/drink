@@ -8,3 +8,4 @@
 - Another story about how they met
 - A fart joke
 - Gene is wholesome
+- Tina hyperventilates

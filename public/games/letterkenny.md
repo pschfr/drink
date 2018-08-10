@@ -3,3 +3,4 @@
 - Hard no
 - Fight scene
 - 10-4
+- Gail makes a sexual comment
