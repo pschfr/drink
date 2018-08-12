@@ -1,4 +1,10 @@
 {
+	"law-and-order-svu": {
+		"title": "Law & Order: SVU",
+		"date": "Aug. 10, 2018",
+		"githubURL":"https://github.com/pschfr/drink/blob/master/public/games/law-and-order-svu.md",
+		"streamURL": "https://www.hulu.com/law-and-order-special-victims-unit/"
+	},
 	"letterkenny": {
 		"title": "Letterkenny",
 		"date": "Aug. 1, 2018",
