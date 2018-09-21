@@ -7,3 +7,4 @@
 - Volcan 300
 - "What kind of king will you be?"
 - "The nth Spell"
+- Ponygon gets frustrated

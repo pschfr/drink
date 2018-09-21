@@ -9,3 +9,7 @@
 - Boyle says something that rhymes with Boyle
 - Terry refers to himself in 3rd person
 - Gina is on her phone
+- Colt has to explain how he feels
+- Scully mentions Hitchcock
+- Diaz does a takedown
+- Doug Judy flirts with Rosa

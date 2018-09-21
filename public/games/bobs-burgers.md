@@ -9,3 +9,4 @@
 - A fart joke
 - Gene is wholesome
 - Tina hyperventilates
+- Linda calls Louise Miss Missy
