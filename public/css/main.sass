@@ -22,19 +22,21 @@ html
 body
 	margin: 6rem 0
 
-// Tweaks header margins
-.navbar-default h1
-	margin: 1rem 0
-	&#total
-		font-family: $font-family-monospace
+.navbar-default
+	backdrop-filter: blur(3px)
+	// Tweaks header margins
+	h1
+		margin: 1rem 0
+		&#total
+			font-family: $font-family-monospace
 
-// Replaces focus rings with fancy underlines
+// Replaces focus rings with my own
 a, [tabindex]
-	text-decoration-skip: ink
 	&:focus
 		outline: none
-	&:hover, &:focus
-		color: $link-hover-color
+		background-color: $text-color
+		color: $body-bg
+	&:hover
 		text-decoration: underline
 
 // Most of the magic happens here
