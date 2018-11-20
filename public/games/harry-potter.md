@@ -1,0 +1,11 @@
+- Harry's scar hurts
+- Ron or Neville fucks up
+- Malfoy mentions his father
+- "I shouldn't have said that"
+- Anyone is awarded points
+- Points are deducted
+- HARRY
+- Hermione raises her hand
+- Ron says "bloody"
+- Snape says something offensive
+- Voldemort's name is avoided

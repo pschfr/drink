@@ -1,4 +1,9 @@
 {
+	"harry-potter": {
+		"title": "Harry Potter",
+		"date": "Nov. 20, 2018",
+		"githubURL":"https://github.com/pschfr/drink/blob/master/public/games/harry-potter.md"
+	},
 	"law-and-order-svu": {
 		"title": "Law & Order: SVU",
 		"date": "Aug. 10, 2018",
