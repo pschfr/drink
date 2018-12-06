@@ -1,4 +1,10 @@
 {
+	"king-of-the-hill": {
+		"title": "King of the Hill",
+		"date": "Dec. 5, 2018",
+		"githubURL":"https://github.com/pschfr/drink/blob/master/public/games/king-of-the-hill.md",
+		"streamURL": "https://www.hulu.com/king-of-the-hill/"
+	},
 	"harry-potter": {
 		"title": "Harry Potter",
 		"date": "Nov. 20, 2018",
